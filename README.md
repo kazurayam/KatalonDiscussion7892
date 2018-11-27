@@ -56,7 +56,7 @@ Both approach resulted the same output in the log:
 >>> opened http://demoaut.katalon.com/ in FireFox with profile named seleniumProfile
 ...
 ```
-![log](docs\images\log.png)
+![log](docs/images/log.png)
 
 I think this log messages proves that I could start Firefox sequentially multiple times with different customer profiles recorded in Excel file.
 
