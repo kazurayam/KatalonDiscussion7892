@@ -45,7 +45,7 @@ I registered the Excel file into Katalon Studio. See the document [Manage Test D
 
 We can iterate over the list of user profile names in the data file ('usualProfile', 'seleniumProfile') in two ways.
 
-1. a Test Case iterates over the data while invoking another Test Case passing the profile name as parameter. Please find the code: [`Test Cases/TC2`](Scripts\TC2\Script1543285423118.groovy) iterates over the list of Profile names while calling another [`Test Cases/worker`](Scripts\worker\Script1543285477659.groovy)
+1. a Test Case iterates over the data while invoking another Test Case passing the profile name as parameter. Please find the code: [`Test Cases/TC2`](Scripts/TC2/Script1543285423118.groovy) iterates over the list of Profile names while calling another [`Test Cases/worker`](Scripts/worker/Script1543285477659.groovy)
 2. a Test Suite iterates over the data while invoking another Test Case passing the profile name as parameter. The following screenshot shows how `Test Suites/TS3` is defined: ![TS3](docs/images/TS3.png)
 
 Both approach resulted the same output in the log:
