@@ -33,7 +33,7 @@ If I can deal with 2, then I would be able to deal with 100.
 
 ### How to start Firefox with prepared user profile
 
-Have a look at the source of [Test Cases/TC1](Scripts\TC1\Script1531449007343.groovy)
+Have a look at the source of [Test Cases/TC1](Scripts/TC1/Script1531449007343.groovy)
 
 ### How to start Firefox with multiple user Profiles
 
