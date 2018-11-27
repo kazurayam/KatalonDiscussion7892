@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>worker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d05b267-d349-47de-9776-34db6426665c</testCaseGuid>
+   <variable>
+      <defaultValue>'seleniumProfile'</defaultValue>
+      <description></description>
+      <id>83531baa-3d3e-4e7d-b5b1-ef7378b4ea55</id>
+      <masked>false</masked>
+      <name>firefoxProfile</name>
+   </variable>
+</TestCaseEntity>
