@@ -36,7 +36,7 @@ switch(executedBrowser) {
 
 WebUI.navigateToUrl('http://demoaut.katalon.com/')
 
-WebUI.comment('>>> opened http://demoaut.katalon.com/ in FireFox with profile named ${firefoxProfile}')
+WebUI.comment(">>> opened http://demoaut.katalon.com/ in FireFox with profile named ${firefoxProfile}")
 
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'), 10)
 
