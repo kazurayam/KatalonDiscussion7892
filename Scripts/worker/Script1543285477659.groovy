@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.driver.WebUIDriverType
-import org.openqa.selenium.firefox.internal.ProfilesIni
+import org.openqa.selenium.firefox.ProfilesIni
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.firefox.FirefoxOptions
@@ -25,7 +25,7 @@ switch(executedBrowser) {
 	case WebUIDriverType.FIREFOX_DRIVER:          // "Firefox"
 		System.setProperty('webdriver.gecko.driver', DriverFactory.getGeckoDriverPath())
 		ProfilesIni profile = new ProfilesIni();
-		FirefoxProfile FF = profile.getProfile(firefoxProfile);
+		FirefoxProfile FF = profile.getProfile(firefoxProfile);    // firefoxProfile is defined as a Variable to the testcase
 		FirefoxOptions options = new FirefoxOptions()
 			.setProfile(new FirefoxProfile());
 		WebDriver driver = new FirefoxDriver(options);
